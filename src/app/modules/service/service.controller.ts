@@ -16,7 +16,22 @@ const getAllServices = async (
     data: result,
   });
 };
+const getSingleService = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const result = await ServiceService.getSingleService(Number(req.params.id));
+
+  sendResponse(res, {
+    success: true,
+    statusCode: 200,
+    message: "Get Single Service Successfully",
+    data: result,
+  });
+};
 
 export const ServiceController = {
   getAllServices,
+  getSingleService,
 };
