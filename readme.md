@@ -8,7 +8,7 @@ Welcome to the backend repository of Airbnb-Naim, a comprehensive Airbnb clone b
 
 Experience the backend in action:
 
-👉 [Live Demo](https://airbnb-naim-backend.vercel.app)
+👉 [Live Demo](https://airbnb-backend-gamma-one.vercel.app)
 
 ---
 
